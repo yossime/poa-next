@@ -58,3 +58,12 @@ cd poa-next
 npm install framer-motion lucide-react
 npx shadcn@latest init
 npx shadcn@latest add button input textarea
+
+
+echo "# poa-next" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yossime/{}.git
+git push -u origin main
